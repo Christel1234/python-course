@@ -20,7 +20,7 @@ def deleteDuplicates():
                 print(f"{filepath} has been deleted")
             else:
                 newFiles.append(hash)
-    return deletedFiles
+    return len(deletedFiles)
 
 
 if __name__ == "__main__":
